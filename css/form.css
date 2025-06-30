@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgba(255, 130, 194, .76), white);
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.form-buy {
+    width: 868px;
+    height: 430px;
+    border-radius: 19px;
+    border: 6px solid #C2EBDF;
+    filter: drop-shadow(0px 2px 20.1 #EAAACB);
+    background-color: #fff;
+    margin: auto;
+    margin-top: 100px;
+    display: block;
+}
+form {
+    padding-top: 20px;
+}
+input {
+    outline: none;
+    width: 750px;
+    border: none;
+    height: 50px;
+    border-bottom: 1px solid #000;
+    display: block;
+    margin: auto;
+    margin-bottom: 60px;
+}
+input::placeholder {
+    color: #FB329A;
+    font-size: 20px;
+    font-weight: 500;
+}
+.button-form {
+    height: 50px;
+    width: 230px;
+    background-color: #FF82C2;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    filter: blur(7);
+    border: 0;
+    border-radius: 17px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+input:focus {
+    font-size: 20px;
+}
+.block-modal {
+    width: 400px;
+    height: 280px;
+    border-radius: 19px;
+    border: 6px solid #C2EBDF;
+    filter: drop-shadow(0px 2px 20.1 #EAAACB);
+    background-color: #fff;
+    margin: auto;
+    margin-top: 100px;
+    display: none;
+}
+.modal-window__text {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 auto;
+    text-align: center;
+    color: #000;
+    margin-top: 30px;
+}
